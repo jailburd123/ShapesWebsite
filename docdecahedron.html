@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="sticky-footer.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <!-- import JS files for BS4 -->
+   
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Shapes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cylinder</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rectangle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Circle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Square</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Triangle</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="docdecahedron.html">Dodecahedron</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    
+    
+      <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-12 pt-5 text-center"><h1>Dodecahedron</h1></div>
+        </div> <!--end row -->
+
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-lg-10">
+                <p>
+                    In geometry, a dodecahedron (Greek δωδεκάεδρον, from δώδεκα dōdeka "twelve" + ἕδρα hédra "base", "seat" or "face") or duodecahedron[1] is any polyhedron with twelve flat faces. The most familiar dodecahedron is the regular dodecahedron with regular pentagons as faces, which is a Platonic solid. There are also three regular star dodecahedra, which are constructed as stellations of the convex form. All of these have icosahedral symmetry, order 120.
+
+Some dodecahedra have the same combinatorial structure as the regular dodecahedron (in terms of the graph formed by its vertices and edges), but their pentagonal faces are not regular: The pyritohedron, a common crystal form in pyrite, has pyritohedral symmetry, while the tetartoid has tetrahedral symmetry.
+
+The rhombic dodecahedron can be seen as a limiting case of the pyritohedron, and it has octahedral symmetry. The elongated dodecahedron and trapezo-rhombic dodecahedron variations, along with the rhombic dodecahedra, are space-filling. There are numerous other dodecahedra.
+
+While the regular dodecahedron shares many features with other Platonic solids, one unique property of it is that one can start at a corner of the surface and draw an infinite number of straight lines across the figure that return to the original point without crossing over any other corner.
+                </p>
+            </div>
+            <div class="col"></div>
+        </div>
+        
+
+        <div class="row">
+            <div class="row text-center m-2">
+                <div class="col-lg-12 ">
+                    <h1>Get Volume</h1>
+                </div>
+            </div>
+          <div class="col-lg-12">
+            <form>
+                <div class="form-group row">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          First radio
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Second radio
+                        </label>
+                      </div>
+                      <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                        <label class="form-check-label" for="gridRadios3">
+                          Third disabled radio
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+                <div class="form-group row">
+                  <div class="col-sm-2">Checkbox</div>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">
+                        Example checkbox
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </div>
+                </div>
+              </form>
+          </div> 
+        </div>
+
+      </div> <!--end container-->
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+      </footer>
+    
+    <script>
+        
+    </script>
+
+
+</body>
+</html>
