@@ -1,7 +1,0 @@
-input:invalid {
-    border: 3px solid red;
-}
-
-svg.path{
-    stroke-dasharray: 1000;
-}
